@@ -8,7 +8,7 @@ choices = {
     "shutdown": "systemctl poweroff",
     "reboot": "systemctl reboot",
     "suspend": "systemctl suspend",
-    "hybrid sleep": "systemctl hybrid-sleep",
+    "hybrid-sleep": "systemctl hybrid-sleep",
     "hibernate": "systemctl hibernate",
     "lock": "xset s activate",
     "logout": "qtile cmd-obj -o cmd -f shutdown"
